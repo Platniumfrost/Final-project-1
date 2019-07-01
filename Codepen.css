@@ -1,0 +1,24 @@
+*,*:before,*:after{
+    margin: 0px;
+}
+
+.header-wrapper {
+    height: 100px;
+    width: 100%;
+    background: black;
+    border-bottom: 1px solid #222;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    justify-items: center;
+    
+    
+}
+.header-wrapper > .logo img {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    position: relative;
+    margin-right: 16px;
+    padding: 0;
+}
